@@ -1,0 +1,25 @@
+{{#partial "content"}}
+
+    <div class = "row">
+        <div class="col-md-6">
+            <div class="card animated bounceInUp">
+                <img class="card-img-top img-responsive w-100" src="https://www.netclipart.com/pp/m/73-733593_superhero-silhouette-png-superhero-silhouette-clipart-png.png" width="100%" height="auto" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title"> Name: {{hero.name}}</h3>
+                    <p class="card-text">Of Squad:  {{squad.name}}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Age: {{hero.age}}</li>
+                    <li class="list-group-item">Super Power: {{hero.superPowers}}</li>
+                    <li class="list-group-item">Weakness: {{hero.weakness}}</li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn btn-danger"><a href="/squads/{{hero.squadId}}/heroes/{{hero.id}}/delete">Delete Hero</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{/partial}}
+{{>layout.hbs}}

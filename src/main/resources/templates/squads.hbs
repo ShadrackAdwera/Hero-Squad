@@ -1,0 +1,34 @@
+{{#partial "content"}}
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://cdn.clipart.email/3d67857bfe3d56408153a9181614ec51_super-hero-gray-clip-art-at-clkercom-vector-clip-art-online-_510-594.png"
+                 width="100%" height="auto" alt="squad">
+        </div>
+        <div class="col-md-6">
+            <h3>Add a Squad</h3>
+            <br>
+            <div class="animated bounceInLeft">
+                <form action="/squads" method="post">
+                    <div class="form-group">
+                        <label for="name">Squad Name</label>
+                        <input type="text" name="name" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Size</label>
+                        <input type="number" min="0" name="size" id="size" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Cause</label>
+                        <input type="text" name="cause" id="cause" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-info">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <h3>Add a squad</h3>
+
+
+    <h5><a href="/">Go back</a></h5>
+{{/partial}}
+{{>layout.hbs}}
