@@ -42,10 +42,14 @@ out
 .gradle
 gradle
 gradlew.bat
-gradlew
 settings.gradle
 
 # IntelliJ #
 ############
 .idea
 .idea/
+
+build
+*.iml
+*.ipr
+*.iws
