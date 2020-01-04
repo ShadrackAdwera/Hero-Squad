@@ -1,0 +1,32 @@
+{{#partial "content"}}
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card animated slideInUp">
+                <h2>Recruit your team of super heroes! </h2>
+                <img class="card-img-top img-responsive w-100"
+                     src="https://cdn.clipart.email/8172d7b72dc51925165c80a05d8c6071_the-vacation-rental-superheroes-are-back-villa-marketers_2144-2550.jpeg"
+                     width="100%" height="auto" alt="Card image cap">
+                <div class="card-body">
+
+                </div>
+                <h3>Heroes: </h3>
+                <div class="card-body">
+                <ul>
+
+                    {{#if heroes}}
+                        {{#each heroes }}
+                            <li><h4><a href="/squads/{{squadId}}/heroes/{{id}}">{{name}}</a></h4></li>
+                        {{/each}}
+
+                    </ul>
+                        <a href="/heroes/delete">Delete All Heroes</a>
+                    {{else}}
+                        <p>No heroes! <a href="/heroes/new">Add a Hero</a></p>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/partial}}
+{{>layout.hbs}}
+
