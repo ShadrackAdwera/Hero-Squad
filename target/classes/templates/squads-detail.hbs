@@ -1,0 +1,29 @@
+{{#partial "content"}}
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top img-responsive w-100"
+                     src="http://www.aljanh.net/data/archive/img/4259023716.png" width="100%" height="auto"
+                     alt="Card image cap">
+                <div class="animated fadeInDown">
+                    <div class="card-body">
+                        <h3 class="card-title"> Squad: {{squad.name}}</h3>
+                        <h3 class="card-title">Cause: {{squad.cause}}</h3>
+                    </div>
+                    <h4>Members: </h4>
+                    <div class="card-body">
+                        <ul>
+                            {{#each heroes}}
+                                <li>
+                                    <p><a href="/squads/{{squad.id}}/heroes/{{id}}">{{name}}</a></p>
+                                </li>
+                            {{/each}}
+                        </ul>
+                        <a href="/squads/{{squad.id}}/delete">DELETE this Squad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/partial}}
+{{>layout.hbs}}
