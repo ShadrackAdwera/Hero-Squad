@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="models.HeroTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="models.HeroTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.5+10"/>
@@ -68,6 +68,6 @@
   <testcase classname="models.HeroTest" name="savesNameCorrectly_String" time="0"/>
   <testcase classname="models.HeroTest" name="savesAgeCorrectly_int" time="0"/>
   <testcase classname="models.HeroTest" name="findReturnsCorrectHero" time="0"/>
-  <testcase classname="models.HeroTest" name="savesPowersCorrectly_String" time="0.005"/>
+  <testcase classname="models.HeroTest" name="savesPowersCorrectly_String" time="0"/>
   <testcase classname="models.HeroTest" name="newHeroInstantiatesWithId_int" time="0"/>
 </testsuite>
