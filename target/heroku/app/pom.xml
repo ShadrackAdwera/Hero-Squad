@@ -83,7 +83,7 @@
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <!-- Change this to YOUR application name! -->
-                    <appName>shaddie-hero-squad</appName>
+                    <appName>hero-squad-spark</appName>
                     <processTypes>
                         <web>java -jar target/heroSquad2-1.0-jar-with-dependencies.jar</web>
                     </processTypes>
