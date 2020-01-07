@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="models.HeroTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="models.HeroTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.5+10"/>
@@ -62,12 +62,12 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="models.HeroTest" name="heroObjectInstantiatesCorrectly_boolean" time="0.004"/>
+  <testcase classname="models.HeroTest" name="heroObjectInstantiatesCorrectly_boolean" time="0.003"/>
   <testcase classname="models.HeroTest" name="savesAllHeroes_Hero" time="0"/>
   <testcase classname="models.HeroTest" name="savesWeaknessCorrectly_String" time="0"/>
   <testcase classname="models.HeroTest" name="savesNameCorrectly_String" time="0"/>
   <testcase classname="models.HeroTest" name="savesAgeCorrectly_int" time="0"/>
-  <testcase classname="models.HeroTest" name="findReturnsCorrectHero" time="0.004"/>
+  <testcase classname="models.HeroTest" name="findReturnsCorrectHero" time="0.001"/>
   <testcase classname="models.HeroTest" name="savesPowersCorrectly_String" time="0"/>
   <testcase classname="models.HeroTest" name="newHeroInstantiatesWithId_int" time="0"/>
 </testsuite>
